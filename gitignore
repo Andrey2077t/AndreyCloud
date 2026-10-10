@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build do Nuitka / PyInstaller (o .exe vai em Releases, não no repositório)
+*.build/
+*.dist/
+*.onefile-build/
+build/
+dist/
+*.spec
+*.exe
+
+# Foto de perfil pessoal (cada pessoa usa a sua)
+avatar.png
+avatar.jpg
+avatar.jpeg
+
+# Editores / sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
